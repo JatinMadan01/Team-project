@@ -373,6 +373,7 @@
 .c1 {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 .c1 p {
