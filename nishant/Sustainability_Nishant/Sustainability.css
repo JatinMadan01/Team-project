@@ -365,7 +365,7 @@
 #career {
     height: 70px;
     width: 95%;
-    background-color: #c0b8a2;
+    background-color: #d7b85b;
     color: #FFFFFF;
     border: none;
 }
@@ -373,11 +373,11 @@
 .c1 {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 }
 
 .c1 p {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .c2 {
