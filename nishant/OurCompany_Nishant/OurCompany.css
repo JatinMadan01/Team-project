@@ -832,6 +832,9 @@ body {
     border: 1px solid #ffffff;
     border-radius: 50%;
 }
+.follow i:hover{
+    background-color: lightcyan;
+}
 
 .footer hr {
     height: 3px;
