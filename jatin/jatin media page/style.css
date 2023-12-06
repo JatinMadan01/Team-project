@@ -337,8 +337,9 @@ body{
 }
 
 #Careers {
-  height: 5rem;
+  height: 8rem;
   width: fit-content;
+  gap: 5rem;
 }
 
 #navbar_list4 {
@@ -371,6 +372,7 @@ body{
 }
 
 #career {
+  margin-top: 80px;
   height: 70px;
   width: 95%;
   background-color: #d7b85b;
