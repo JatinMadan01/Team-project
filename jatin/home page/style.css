@@ -32,6 +32,10 @@ body{
   align-items: center;
 
 }
+#logo{
+  display: flex;
+  justify-content: center;
+}
 .navbar a{
   text-decoration: none;
   color:black;
@@ -673,6 +677,135 @@ body{
   background-color: rgba(246, 10, 10, 0.866);
 }
 
+/* !!!    FOR LAPTOP SCREENS */
+@media screen and (max-width: 1200px) {
+
+  .people_section {
+      width: 100%;
+      margin: 0;
+  }
+
+  .container_section {
+      gap: 13rem;
+  }
+  
+  .container_section .side-containers {
+      flex-direction: column;
+      width: 100%;
+      height: 40rem;
+  }  
+  .side-containers .side-container-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 0%; 
+  }
+  .side-containers .side-container-detail, .left-sided-detail {
+      width: 95%;
+      height: 18rem;
+      margin-bottom: 27rem;
+      margin-left: 1.7rem;
+      margin-right: 1.7rem;
+  }
+
+  .side-containers .right-side-pic {
+      margin-left: 0;
+  }
+
+  .side-container-detail .detail-inner {
+      margin-left: auto;
+      margin-right: auto;
+      width: 94%;
+      height: 100%;
+      margin-top: 2rem;
+      /* justify-content: space-around; */
+  }
+
+  .detail-inner .detail-info h3 {
+      font-size: 1.2rem;
+  }
+
+  .detail-inner .detail-info p {
+      font-size: 0.88rem;
+      line-height: 1.4rem;
+      margin-top: 1.25rem;
+      letter-spacing: 0.2px;
+  }
+
+  .detail-inner a {
+      margin-bottom: 4rem;
+      width: 100%;
+  }
+
+}
+
+/* !!!    FOR SMALL LAPTOP SCREENS */
+@media screen and (max-width: 810px) {
+  .side-containers .side-container-detail, .left-sided-detail {
+      width: 92%;
+      margin-left: 1.6rem;
+      margin-bottom: 21rem;
+      height: 20rem;
+  }
+
+
+  .side-containers .side-container-img {
+      width: 100%;
+      height: 60%;
+      border-radius: 0%; 
+      background-size: cover;
+  }
+
+  .side-containers .right-side-pic {
+      margin-left: 0;
+      height: 60%;
+  }
+
+  .detail-inner .detail-info p {
+      font-size: 0.88rem;
+      line-height: 1.6rem;
+      margin-top: 1.35rem;
+      letter-spacing: 0.4px;
+  }
+}
+
+/* !!!    FOR TABLET and Large mobiles SCREENS */
+@media screen and (max-width: 470px) {
+
+  .people_section .people_matter {
+      margin-bottom: 8rem;
+  }
+  .container_section {
+      gap: 7rem;
+  }
+
+  .side-containers .side-container-detail, .left-sided-detail {
+      width: 92%;
+      margin-left: 1.1rem;
+      margin-bottom: 21rem;
+      height: 24rem;
+  }
+
+
+  .side-containers .side-container-img {
+      width: 100%;
+      height: 50%;
+      border-radius: 0%; 
+      background-size: cover;
+  }
+
+  .side-containers .right-side-pic {
+      margin-left: 0;
+      height: 50%;
+  }
+
+  .detail-inner .detail-info p {
+      font-size: 0.88rem;
+      line-height: 1.6rem;
+      margin-top: 1.35rem;
+      letter-spacing: 0.4px;
+  }
+}
+
 
 /*hero*/
 .hero{
@@ -982,8 +1115,23 @@ body{
   }
 } */
 
-@media screen and (max-width: 1024px) {
-  .navbar{
-    width: 800px;
+@media screen and (max-width: 450px) {
+  body{
+    background-color: #ffffff;
   }
+  #logo{
+   
+    text-align: center;
+    width :400px;
+   
+  }
+  .navbar{
+    width: 500px;
+    height:10vh;
+    position: fixed;
+    background-color: white;
+    display: none;
+    
+  } 
+  
 }
