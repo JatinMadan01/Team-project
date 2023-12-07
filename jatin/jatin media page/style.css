@@ -27,13 +27,21 @@ body{
 .nav_container {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   /* border: 2px solid blue; */
   position: relative;
   align-items: center;
 
 }
 
+.logo{
+  width:10%;
+  height: 8vh;
+  /* border: 2px solid red; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 .navbar a {
   text-decoration: none;
   color: black;
@@ -43,6 +51,7 @@ body{
 
 .nav_container a i {
   color: #141414;
+  
 }
 
 .company_container {
@@ -493,7 +502,9 @@ body{
   background-color: #9b7709;
   
 }
-  
+#navbar_list7 {
+  height: 1.5rem;
+}  
 
 
 /* hero */
@@ -1077,8 +1088,55 @@ hr{
   }
 } */
 
-@media screen and (max-width: 1024px) {
-  .navbar{
+@media screen and (max-width: 450px) {
+  body{
+    background-color: #ffffff;
+  }
+  .logo{
+    
+    text-align: center;
+    width : 400px;
+   
+  }
+  .logo img{
     width: 100%;
   }
+  #navbar_list,
+  .navbar_list1,
+  .navbar_list2,
+  #navbar_list3,
+  #navbar_list4,
+  #navbar_list5,
+  #navbar_list6,
+  #navbar_list7{
+    display: none;
+    
+  }  
 }
+
+@media screen and (max-width: 1200px) {
+  body{
+    background-color: #ffffff;
+  }
+  .logo{
+    text-align: center;
+    width : 400px;
+   
+  }
+  .logo img{
+    width: 100%;
+  }
+  #navbar_list,
+  .navbar_list1,
+  .navbar_list2,
+  #navbar_list3,
+  #navbar_list4,
+  #navbar_list5,
+  #navbar_list6,
+  #navbar_list7{
+    display: none;
+    
+  }  
+}
+
+
