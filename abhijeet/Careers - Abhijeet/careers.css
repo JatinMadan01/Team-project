@@ -1398,6 +1398,14 @@ body {
     .h-text{
         margin-left: 17rem;
       }
+      .text.sec-text:before{
+        
+        /* background-color: #1E1C27; */
+        background-color: white;
+        /* border-left: 2px solid #00C9F3; */
+        /* border-left: 2px solid #F50008;
+        animation: animate 4s steps(19) infinite; */
+    }
   }
 
   @media screen and (max-width: 1050px){
