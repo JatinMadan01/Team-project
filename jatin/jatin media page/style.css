@@ -1040,6 +1040,7 @@ hr{
   align-items: center;
   justify-content: space-evenly;
   background-color: #181818;
+  gap:0.8rem;
 }
 .footer .sub-footer1 .STAY .upto .follow .fa-youtube,.fa-twitter,.fa-pinterest,.fa-instagram,.fa-facebook,.fa-linkedin,.fa-location-dot{
   font-size: 20px;
