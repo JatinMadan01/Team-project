@@ -24,6 +24,7 @@ body{
   /* border:2px solid red; */
 }
 
+
 .nav_container {
   width: 100%;
   display: flex;
@@ -33,6 +34,15 @@ body{
   align-items: center;
 
 }
+.logo{
+  width:20%;
+  /* border: 2px solid red; */
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
 
 .navbar a {
   text-decoration: none;
@@ -1064,19 +1074,24 @@ body{
   body{
     background-color: #ffffff;
   }
-  #logo{
-   
+  .logo{
     text-align: center;
-    width :400px;
+    width : 400px;
    
   }
-  .navbar{
-    width: 500px;
-    height:10vh;
-    position: fixed;
-    background-color: white;
+  .logo img{
+    width: 100%;
+  }
+  #navbar_list,
+  .navbar_list1,
+  .navbar_list2,
+  #navbar_list3,
+  #navbar_list4,
+  #navbar_list5,
+  #navbar_list6{
     display: none;
     
   } 
   
 }
+
