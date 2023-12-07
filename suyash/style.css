@@ -36,6 +36,7 @@ body{
     align-items: center;
     border-bottom: 1px solid black;
     border-top: 2px solid black;
+    top: 0;
     /* border:2px solid red; */
   }
   
@@ -521,16 +522,17 @@ body{
     height: 1.5rem;
   }
 
+
 /*hero*/
 .hero{
     width: 100%;
     height: 2591px;
-    
     margin: 50px auto;
     position: relative;
     display: flex;
     flex-direction: column;
     background-color: #f1f1f1;
+    margin-top: 10vh;
     
 }
 .main-container .hero .brands-txt{
@@ -602,8 +604,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
     margin:2px auto;
+    margin-top: 5vh;
 }
 
 .frid .mainfrid{
@@ -743,14 +745,19 @@ body{
 /*footer*/
 .footer{
   height: 650px;
-  width: 100%;
-  background-color: #191919;
+  width: 90%;
+  background-color: black;
   display: flex;
   align-items: center;
   flex-direction: column;
   position: relative;
   font-family: 'Poppins';
   margin-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.foot{
+  background-color: black;
 }
 .footer div{
   width: 80%;
@@ -906,7 +913,7 @@ body{
   /* line-height: 28px; */
   text-align: start;
   color: white;
-  background-color: #181818;
+  background-color: black;
 }
 .footer .sub-footer1 .STAY .upto .follow{
   height: 40%;
@@ -914,7 +921,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #181818;
+  background-color: black;
   gap: 0.8rem;
 }
 .footer .sub-footer1 .STAY .upto .follow .fa-youtube,.fa-twitter,.fa-pinterest,.fa-instagram,.fa-facebook,.fa-linkedin,.fa-location-dot{
