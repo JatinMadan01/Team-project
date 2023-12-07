@@ -1100,6 +1100,8 @@ body{
   } 
   #navbar_list8{
     display: flex;
+    justify-content: flex-end;
+    width: 100%;
   } 
 }
 

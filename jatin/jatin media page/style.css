@@ -505,6 +505,9 @@ body{
 #navbar_list7 {
   height: 1.5rem;
 }  
+#navbar_list8{
+  display: none;
+}
 
 
 /* hero */
