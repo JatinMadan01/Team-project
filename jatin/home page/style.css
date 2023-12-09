@@ -844,7 +844,7 @@ body{
 .footer{
   height: 663px;
   width: 100%;
-  background-color: #191919;
+  background-color: black;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -1119,6 +1119,11 @@ body{
     justify-content:flex-end;
     width:100%;
     /* margin-left: 40rem; */
+  }
+  .testimonial-list-container{
+    display: flex;
+    align-items: center;
+
   } 
 }
 
