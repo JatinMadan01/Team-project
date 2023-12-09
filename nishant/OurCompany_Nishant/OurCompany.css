@@ -547,7 +547,7 @@ body {
 .footer {
     height: 650px;
     width: 100%;
-    background-color: #191919;
+    background-color: black;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -727,7 +727,7 @@ body {
     /* line-height: 28px; */
     text-align: start;
     color: white;
-    background-color: #181818;
+    background-color: black;
 }
 
 .footer .sub-footer1 .STAY .upto .follow {
@@ -736,7 +736,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #181818;
+    background-color: black;
+    gap: 0.8rem;
 }
 
 .footer .sub-footer1 .STAY .upto .follow .fa-youtube,
